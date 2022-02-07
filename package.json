@@ -1,0 +1,30 @@
+{
+  "name": "randomstoreapi",
+  "version": "1.0.0",
+  "description": "Mock API for Random Store",
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.0",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js",
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/golovw/randomStoreAPI.git"
+  },
+  "author": "golovw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/golovw/randomStoreAPI/issues"
+  },
+  "homepage": "https://github.com/golovw/randomStoreAPI#readme"
+}
