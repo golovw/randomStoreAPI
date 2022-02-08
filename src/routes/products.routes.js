@@ -1,5 +1,7 @@
 import { Router } from 'express';
 
+import Products from '../../public/data/products.json';
+
 const router = Router();
 
 router.get('/products', (req, res) => {

@@ -1,0 +1,60 @@
+{
+    "subCategories": [
+        {
+            "id": 1,
+            "name": "Polos",
+            "parentID": 2
+        },{
+            "id": 2,
+            "name": "T-Shirts",
+            "parentID": 2
+        },{
+            "id": 3,
+            "name": "Pants and Shorts",
+            "parentID": 2
+        },{
+            "id": 4,
+            "name": "Sweaters",
+            "parentID": 2
+        },{
+            "id": 5,
+            "name": "Underwear",
+            "parentID": 2
+        },{
+            "id": 6,
+            "name": "Swimwear",
+            "parentID": 2
+        },{
+            "id": 7,
+            "name": "Sneakers",
+            "parentID": 1
+        },{
+            "id": 8,
+            "name": "Watches",
+            "parentID": 3
+        },{
+            "id": 9,
+            "name": "Sunglasses",
+            "parentID": 3
+        },{
+            "id": 10,
+            "name": "Fragrance",
+            "parentID": 3
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "Shoes",
+            "subCategoriesIDs": [7]
+        },{
+            "id": 2,
+            "name": "Clothing",
+            "subCategoriesIDs": [1, 2, 3, 4, 5, 6]
+        },{
+            "id": 3,
+            "name": "Assesories",
+            "subCategoriesIDs": [8, 9, 10]
+        }
+    ]
+}
